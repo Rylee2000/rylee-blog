@@ -321,11 +321,6 @@
     margin-left:250px;
 }
 
-.albumtitle{
-    margin-top:100px;
-    font-family: "Lobster";
-    text-align:center;
-}
 
 .albumimage{
     margin-top:25px;
@@ -333,11 +328,9 @@
 }
 
 .artist{
-    margin-left:75px;
+    margin-left:115px;
 }
 
-.artisttitle{
-    margin-top:100px;
-    font-family: "Lobster";
-    text-align:center;
+.songimage{
+    margin-left:250px;
 }
