@@ -312,6 +312,10 @@
     margin-top:125px;
 }
 
+.musictable{
+    margin: 0, auto;
+}
+
 .musictitle{
     margin-top:75px;
     font-family: "Lobster";
@@ -320,10 +324,6 @@
 
 .spotifyprofile{
     margin-left:20%;
-}
-
-.albums{
-    margin:0, auto;
 }
 
 .albumpics{
