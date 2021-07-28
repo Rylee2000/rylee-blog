@@ -5,33 +5,35 @@
 }
 
 .welcometitle{
-    margin-left:50px;
-    margin-top:100px;
+    margin-left:15%;
+    margin-top:25%;
     font-family: "Lobster";
-    font-size:50px;
+    font-size:300%;
     
 }
 
 .welcometitle2{
-    margin-left:35px;
-    margin-top:60px;
+    margin-top:10%;
     font-family: "Lobster";
+    margin-left:-3%;
 }
 
 .greetingtable{
-    margin-top:130px;
-    margin-left:285px;
+    margin-top:13%;
+    margin-left:25%;
 }
 
 .greetingtablecolumn{
-    padding:0 0px;
+    padding:0 3%;
 }
 
 .speechbubble{
     position:relative;
-    margin-left:-25px;
-    margin-top:-175px;
+    margin-left:-5%;
+    margin-top:-70%;
     opacity:0;
+    width:200px;
+    height:auto;
 }
 
 .speechbubble:hover{
@@ -39,7 +41,7 @@
 }
 
 .mainpage{
-    margin-top:150px;
+    margin-top:12%;
 }
 
 .me{
@@ -59,12 +61,12 @@
 }
 
 .speechbubble{
-    width:250px;
+    width:52%;
     height:auto;
 }
 
 .snailtable{
-    margin-top:50px;
+    margin-top:4%;
 }
 
 .snail1{
@@ -88,16 +90,16 @@
 
 .menu{
     height:5px;
-    margin-top:20px;
-    margin-left:175px;
+    margin-top:2%;
+    margin-left:15%;
 }
 
 .button{
     background-color:#FB8DA0;
     font-family:"Lobster";
-    font-size:15px;
-    margin:50px;
-    padding:15px;
+    font-size:95%;
+    margin:4%;
+    padding:1.5%;
     border-radius:50%;
     transition: all .2s ease-in-out; 
 }
