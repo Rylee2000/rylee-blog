@@ -1,0 +1,336 @@
+.body{
+    margin:0;
+    background-color:#D4F1F4;
+}
+
+.welcometitle{
+    margin-left:50px;
+    margin-top:100px;
+    font-family: "Lobster";
+    font-size:50px;
+    
+}
+
+.welcometitle2{
+    margin-left:35px;
+    margin-top:60px;
+    font-family: "Lobster";
+}
+
+.greetingtable{
+    margin-top:130px;
+    margin-left:285px;
+}
+
+.greetingtablecolumn{
+    padding:0 0px;
+}
+
+.speechbubble{
+    position:relative;
+    margin-left:-25px;
+    margin-top:-175px;
+    opacity:0;
+}
+
+.speechbubble:hover{
+    opacity:1;
+}
+
+.mainpage{
+    margin-top:150px;
+}
+
+.me{
+    height:300px;
+    width:auto;
+    border-radius:50%;
+    transition: all .2s ease-in-out; 
+}
+
+.me:hover{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 30px 0px #189AB4;
+    -moz-box-shadow:    0px 0px 30px 0px #189AB4;
+    box-shadow:         0px 0px 30px 0px #189AB4;
+}
+
+.speechbubble{
+    width:250px;
+    height:auto;
+}
+
+.snailtable{
+    margin-top:50px;
+}
+
+.snail1{
+    height:100px;
+    width:auto;
+}
+
+.snail2{
+    height:150px;
+    width:auto;
+}
+
+.snail3{
+    height:75px;
+    width:auto;
+}
+
+.snailtablecolumn{
+    padding: 0 150px;
+}
+
+.menu{
+    height:5px;
+    margin-top:20px;
+    margin-left:175px;
+}
+
+.button{
+    background-color:#FB8DA0;
+    font-family:"Lobster";
+    font-size:15px;
+    margin:50px;
+    padding:15px;
+    border-radius:50%;
+    transition: all .2s ease-in-out; 
+}
+
+.button:hover{
+    background-color:#FB4570;
+}
+
+
+/*photo album*/
+.photoalbum{
+    margin-top:50px;
+}
+
+.photosTitle{
+    font-family: "Lobster";
+    text-align:center;
+    font-size:30px;
+}
+
+.bigbeargrid{
+    background-color:#189AB4;
+    width:575px;
+    height:750px;
+    margin-left:100px;
+    margin-top:1100px;
+    position:absolute;
+}
+
+.bigbearimage{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    transition: all .2s ease-in-out; 
+}
+
+.bigbearimage:hover{
+    transform:scale(2.5);
+}
+
+.bigbearrow{
+    margin-top:50px;
+    margin-left:100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.bigbearcolumn{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.slabgrid{
+    background-color:#189AB4;
+    width:1100px;
+    height:975px;
+    margin-left:75px;
+    margin-top:100px;
+    position:absolute;
+}
+
+.slabcolumn{
+    flex: 25%;
+    max-width: 10%;
+    padding: 0 4px;
+}
+
+.slabimage{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    transition: all .2s ease-in-out; 
+}
+
+.slabimage:hover{
+    transform:scale(2.5);
+}
+
+.slabrow{
+    margin-top:50px;
+    margin-left:100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.balboagrid{
+    background-color:#189AB4;
+    margin-left:740px;
+    margin-top:1100px;
+    width:400px;
+    height:700px;
+    position:absolute;
+}
+
+.balboacolumn{
+    flex: 25%;
+    max-width: 40%;
+    padding: 0 4px;
+}
+
+.balboaimage{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    transition: all .2s ease-in-out; 
+}
+
+.balboaimage:hover{
+    transform:scale(2.5);
+}
+
+.balboarow{
+    margin-top:50px;
+    margin-left:70px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+/*Blog*/
+.bloggridtop{
+    background-color:#189AB4;
+    height:500px;
+    width:650px;
+    margin-top:150px;
+    margin-left:300px;
+}
+
+.bloggrid{
+    background-color:#189AB4;
+    height:500px;
+    width:650px;
+    margin-top:25px;
+    margin-left:300px;
+}
+
+.title{
+    font-family: "Lobster";
+    text-align:center;
+    font-size:30px;
+}
+
+.farmersmarketimage{
+    width:200px;
+    height:auto;
+    transition: all .2s ease-in-out; 
+}
+
+.farmersmarketimage:hover{
+    transform:scale(1.5);
+}
+
+.blogcaption{
+    font-family: "Lobster";
+    text-align:center;
+}
+
+.austinimage{
+    width:180px;
+    height:auto;
+    transition: all .2s ease-in-out; 
+}
+
+.austinimage:hover{
+    transform:scale(1.5);
+}
+
+
+/*Chef Rylee*/
+.foodgridtop{
+    background-color:#189AB4;
+    height:500px;
+    width:650px;
+    margin-top:150px;
+    margin-left:300px;
+}
+
+.foodgrid{
+    background-color:#189AB4;
+    height:500px;
+    width:650px;
+    margin-top:25px;
+    margin-left:300px;
+}
+
+.salad{
+    height:325px;
+}
+
+.foodimage{
+    width:300px;
+    height:auto;
+    transition: all .2s ease-in-out; 
+}
+
+.foodimage:hover{
+    transform:scale(1.5);
+}
+
+.foodcaption{
+    font-family: "Lobster";
+    text-align:center;
+}
+
+
+/*music*/
+.musicgrid{
+    margin-top:125px;
+}
+
+.musictitle{
+    margin-top:75px;
+    font-family: "Lobster";
+    text-align:center;
+}
+
+.spotifyprofile{
+    margin-left:250px;
+}
+
+
+.albumimage{
+    margin-top:25px;
+    margin-left:200px;
+}
+
+.artist{
+    margin-left:115px;
+}
+
+.songimage{
+    margin-left:250px;
+}
