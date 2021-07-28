@@ -37,6 +37,9 @@
     opacity:1;
 }
 
+.mainpage{
+    margin-top:150px;
+}
 
 .me{
     height:300px;
@@ -85,52 +88,22 @@
 .menu{
     height:5px;
     margin-top:20px;
+    margin-left:175px;
 }
 
-.button1{
+.button{
     background-color:#FB8DA0;
     font-family:"Lobster";
     font-size:15px;
-    margin-left:275px;
-    margin-top:25px;
+    margin:50px;
     padding:15px;
     border-radius:50%;
     transition: all .2s ease-in-out; 
 }
 
-.button1:hover{
+.button:hover{
     background-color:#FB4570;
 }
-
-.button2{
-    background-color:#FB8DA0;
-    font-family:"Lobster";
-    font-size:15px;
-    margin-left:170px;
-    padding:15px;
-    border-radius:50%;
-    transition: all .2s ease-in-out; 
-}
-
-.button2:hover{
-    background-color:#FB4570;
-}
-
-.button3{
-    background-color:#FB8DA0;
-    font-family:"Lobster";
-    font-size:15px;
-    margin-left:140px;
-    padding:15px;
-    border-radius:50%;
-    transition: all .2s ease-in-out; 
-}
-
-.button3:hover{
-    background-color:#FB4570;
-}
-
-
 
 
 /*photo album*/
@@ -246,11 +219,20 @@
     padding: 0 4px;
 }
 
+
 /*Blog*/
-.farmersmarketgrid{
+.bloggridtop{
     background-color:#189AB4;
     height:500px;
-    width:600px;
+    width:650px;
+    margin-top:150px;
+    margin-left:300px;
+}
+
+.bloggrid{
+    background-color:#189AB4;
+    height:500px;
+    width:650px;
     margin-top:25px;
     margin-left:300px;
 }
@@ -276,14 +258,6 @@
     text-align:center;
 }
 
-.austingrid{
-    background-color:#189AB4;
-    height:500px;
-    width:600px;
-    margin-top:150px;
-    margin-left:300px;
-}
-
 .austinimage{
     width:180px;
     height:auto;
@@ -294,3 +268,76 @@
     transform:scale(1.5);
 }
 
+
+/*Chef Rylee*/
+.foodgridtop{
+    background-color:#189AB4;
+    height:500px;
+    width:650px;
+    margin-top:150px;
+    margin-left:300px;
+}
+
+.foodgrid{
+    background-color:#189AB4;
+    height:500px;
+    width:650px;
+    margin-top:25px;
+    margin-left:300px;
+}
+
+.salad{
+    height:325px;
+}
+
+.foodimage{
+    width:300px;
+    height:auto;
+    transition: all .2s ease-in-out; 
+}
+
+.foodimage:hover{
+    transform:scale(1.5);
+}
+
+.foodcaption{
+    font-family: "Lobster";
+    text-align:center;
+}
+
+
+/*music*/
+.musicgrid{
+    margin-top:125px;
+}
+
+.musictitle{
+    margin-top:75px;
+    font-family: "Lobster";
+    text-align:center;
+}
+
+.spotifyprofile{
+    margin-left:250px;
+}
+
+.albumtitle{
+    margin-top:100px;
+    font-family: "Lobster";
+    text-align:center;
+}
+
+.albumimage{
+    margin-top:25px;
+    margin-left:200px;
+}
+
+.artist{
+    margin-left:75px;
+}
+
+.artisttitle{
+    margin-top:100px;
+    font-family: "Lobster";
+    text-align:center;
+}
