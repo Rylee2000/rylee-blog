@@ -67,6 +67,7 @@
 
 .snailtable{
     margin-top:4%;
+    margin-left:5%
 }
 
 .snail1{
@@ -229,7 +230,7 @@
     height:500px;
     width:650px;
     margin-top:150px;
-    margin-left:300px;
+    margin-left:25%;
 }
 
 .bloggrid{
@@ -237,7 +238,7 @@
     height:500px;
     width:650px;
     margin-top:25px;
-    margin-left:300px;
+    margin-left:25%;
 }
 
 .title{
@@ -278,7 +279,7 @@
     height:500px;
     width:650px;
     margin-top:150px;
-    margin-left:300px;
+    margin-left:25%;
 }
 
 .foodgrid{
@@ -286,7 +287,7 @@
     height:500px;
     width:650px;
     margin-top:25px;
-    margin-left:300px;
+    margin-left:25%;
 }
 
 .salad{
@@ -316,7 +317,7 @@
 
 .musictable{
     margin: 0, auto;
-    max-width:200px;
+    max-width:20%;
 }
 
 .musictitle{
@@ -334,7 +335,7 @@
 }
 
 .artist{
-    margin-left:115px;
+    margin-left:10%;
 }
 
 .songimage{
